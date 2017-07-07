@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FE54AE31F09CD4D004F5C20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE54AE21F09CD4D004F5C20 /* AppDelegate.swift */; };
+		5FE54AE51F09CD4D004F5C20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE54AE41F09CD4D004F5C20 /* ViewController.swift */; };
+		5FE54AE81F09CD4D004F5C20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE54AE61F09CD4D004F5C20 /* Main.storyboard */; };
+		5FE54AEA1F09CD4D004F5C20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FE54AE91F09CD4D004F5C20 /* Assets.xcassets */; };
+		5FE54AED1F09CD4D004F5C20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE54AEB1F09CD4D004F5C20 /* LaunchScreen.storyboard */; };
+		5FE54AF81F09CD4D004F5C20 /* VisionObjectTrackingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE54AF71F09CD4D004F5C20 /* VisionObjectTrackingTests.swift */; };
+		5FE54B031F09CD4D004F5C20 /* VisionObjectTrackingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE54B021F09CD4D004F5C20 /* VisionObjectTrackingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FE54AF41F09CD4D004F5C20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE54AD71F09CD4C004F5C20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE54ADE1F09CD4D004F5C20;
+			remoteInfo = VisionObjectTracking;
+		};
+		5FE54AFF1F09CD4D004F5C20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FE54AD71F09CD4C004F5C20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FE54ADE1F09CD4D004F5C20;
+			remoteInfo = VisionObjectTracking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FE54ADF1F09CD4D004F5C20 /* VisionObjectTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionObjectTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE54AE21F09CD4D004F5C20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FE54AE41F09CD4D004F5C20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FE54AE71F09CD4D004F5C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FE54AE91F09CD4D004F5C20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FE54AEC1F09CD4D004F5C20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5FE54AEE1F09CD4D004F5C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE54AF31F09CD4D004F5C20 /* VisionObjectTrackingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionObjectTrackingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE54AF71F09CD4D004F5C20 /* VisionObjectTrackingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionObjectTrackingTests.swift; sourceTree = "<group>"; };
+		5FE54AF91F09CD4D004F5C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE54AFE1F09CD4D004F5C20 /* VisionObjectTrackingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisionObjectTrackingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE54B021F09CD4D004F5C20 /* VisionObjectTrackingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionObjectTrackingUITests.swift; sourceTree = "<group>"; };
+		5FE54B041F09CD4D004F5C20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FE54ADC1F09CD4D004F5C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE54AF01F09CD4D004F5C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE54AFB1F09CD4D004F5C20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FE54AD61F09CD4C004F5C20 = {
+			isa = PBXGroup;
+			children = (
+				5FE54AE11F09CD4D004F5C20 /* VisionObjectTracking */,
+				5FE54AF61F09CD4D004F5C20 /* VisionObjectTrackingTests */,
+				5FE54B011F09CD4D004F5C20 /* VisionObjectTrackingUITests */,
+				5FE54AE01F09CD4D004F5C20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FE54AE01F09CD4D004F5C20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FE54ADF1F09CD4D004F5C20 /* VisionObjectTracking.app */,
+				5FE54AF31F09CD4D004F5C20 /* VisionObjectTrackingTests.xctest */,
+				5FE54AFE1F09CD4D004F5C20 /* VisionObjectTrackingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FE54AE11F09CD4D004F5C20 /* VisionObjectTracking */ = {
+			isa = PBXGroup;
+			children = (
+				5FE54AE21F09CD4D004F5C20 /* AppDelegate.swift */,
+				5FE54AE41F09CD4D004F5C20 /* ViewController.swift */,
+				5FE54AE61F09CD4D004F5C20 /* Main.storyboard */,
+				5FE54AE91F09CD4D004F5C20 /* Assets.xcassets */,
+				5FE54AEB1F09CD4D004F5C20 /* LaunchScreen.storyboard */,
+				5FE54AEE1F09CD4D004F5C20 /* Info.plist */,
+			);
+			path = VisionObjectTracking;
+			sourceTree = "<group>";
+		};
+		5FE54AF61F09CD4D004F5C20 /* VisionObjectTrackingTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE54AF71F09CD4D004F5C20 /* VisionObjectTrackingTests.swift */,
+				5FE54AF91F09CD4D004F5C20 /* Info.plist */,
+			);
+			path = VisionObjectTrackingTests;
+			sourceTree = "<group>";
+		};
+		5FE54B011F09CD4D004F5C20 /* VisionObjectTrackingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FE54B021F09CD4D004F5C20 /* VisionObjectTrackingUITests.swift */,
+				5FE54B041F09CD4D004F5C20 /* Info.plist */,
+			);
+			path = VisionObjectTrackingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FE54ADE1F09CD4D004F5C20 /* VisionObjectTracking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE54B071F09CD4D004F5C20 /* Build configuration list for PBXNativeTarget "VisionObjectTracking" */;
+			buildPhases = (
+				5FE54ADB1F09CD4D004F5C20 /* Sources */,
+				5FE54ADC1F09CD4D004F5C20 /* Frameworks */,
+				5FE54ADD1F09CD4D004F5C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionObjectTracking;
+			productName = VisionObjectTracking;
+			productReference = 5FE54ADF1F09CD4D004F5C20 /* VisionObjectTracking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FE54AF21F09CD4D004F5C20 /* VisionObjectTrackingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE54B0A1F09CD4D004F5C20 /* Build configuration list for PBXNativeTarget "VisionObjectTrackingTests" */;
+			buildPhases = (
+				5FE54AEF1F09CD4D004F5C20 /* Sources */,
+				5FE54AF01F09CD4D004F5C20 /* Frameworks */,
+				5FE54AF11F09CD4D004F5C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE54AF51F09CD4D004F5C20 /* PBXTargetDependency */,
+			);
+			name = VisionObjectTrackingTests;
+			productName = VisionObjectTrackingTests;
+			productReference = 5FE54AF31F09CD4D004F5C20 /* VisionObjectTrackingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FE54AFD1F09CD4D004F5C20 /* VisionObjectTrackingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FE54B0D1F09CD4D004F5C20 /* Build configuration list for PBXNativeTarget "VisionObjectTrackingUITests" */;
+			buildPhases = (
+				5FE54AFA1F09CD4D004F5C20 /* Sources */,
+				5FE54AFB1F09CD4D004F5C20 /* Frameworks */,
+				5FE54AFC1F09CD4D004F5C20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FE54B001F09CD4D004F5C20 /* PBXTargetDependency */,
+			);
+			name = VisionObjectTrackingUITests;
+			productName = VisionObjectTrackingUITests;
+			productReference = 5FE54AFE1F09CD4D004F5C20 /* VisionObjectTrackingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FE54AD71F09CD4C004F5C20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "twcn ";
+				TargetAttributes = {
+					5FE54ADE1F09CD4D004F5C20 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					5FE54AF21F09CD4D004F5C20 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 5FE54ADE1F09CD4D004F5C20;
+					};
+					5FE54AFD1F09CD4D004F5C20 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 5FE54ADE1F09CD4D004F5C20;
+					};
+				};
+			};
+			buildConfigurationList = 5FE54ADA1F09CD4C004F5C20 /* Build configuration list for PBXProject "VisionObjectTracking" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FE54AD61F09CD4C004F5C20;
+			productRefGroup = 5FE54AE01F09CD4D004F5C20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FE54ADE1F09CD4D004F5C20 /* VisionObjectTracking */,
+				5FE54AF21F09CD4D004F5C20 /* VisionObjectTrackingTests */,
+				5FE54AFD1F09CD4D004F5C20 /* VisionObjectTrackingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FE54ADD1F09CD4D004F5C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE54AED1F09CD4D004F5C20 /* LaunchScreen.storyboard in Resources */,
+				5FE54AEA1F09CD4D004F5C20 /* Assets.xcassets in Resources */,
+				5FE54AE81F09CD4D004F5C20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE54AF11F09CD4D004F5C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE54AFC1F09CD4D004F5C20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FE54ADB1F09CD4D004F5C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE54AE51F09CD4D004F5C20 /* ViewController.swift in Sources */,
+				5FE54AE31F09CD4D004F5C20 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE54AEF1F09CD4D004F5C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE54AF81F09CD4D004F5C20 /* VisionObjectTrackingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FE54AFA1F09CD4D004F5C20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE54B031F09CD4D004F5C20 /* VisionObjectTrackingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FE54AF51F09CD4D004F5C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE54ADE1F09CD4D004F5C20 /* VisionObjectTracking */;
+			targetProxy = 5FE54AF41F09CD4D004F5C20 /* PBXContainerItemProxy */;
+		};
+		5FE54B001F09CD4D004F5C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FE54ADE1F09CD4D004F5C20 /* VisionObjectTracking */;
+			targetProxy = 5FE54AFF1F09CD4D004F5C20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FE54AE61F09CD4D004F5C20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE54AE71F09CD4D004F5C20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5FE54AEB1F09CD4D004F5C20 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FE54AEC1F09CD4D004F5C20 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FE54B051F09CD4D004F5C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FE54B061F09CD4D004F5C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5FE54B081F09CD4D004F5C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MVG5D3N9N;
+				INFOPLIST_FILE = VisionObjectTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realestate.demo.lv.VisionObjectTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5FE54B091F09CD4D004F5C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MVG5D3N9N;
+				INFOPLIST_FILE = VisionObjectTracking/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realestate.demo.lv.VisionObjectTracking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5FE54B0B1F09CD4D004F5C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7MVG5D3N9N;
+				INFOPLIST_FILE = VisionObjectTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realestate.demo.lv.VisionObjectTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionObjectTracking.app/VisionObjectTracking";
+			};
+			name = Debug;
+		};
+		5FE54B0C1F09CD4D004F5C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7MVG5D3N9N;
+				INFOPLIST_FILE = VisionObjectTrackingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realestate.demo.lv.VisionObjectTrackingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisionObjectTracking.app/VisionObjectTracking";
+			};
+			name = Release;
+		};
+		5FE54B0E1F09CD4D004F5C20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7MVG5D3N9N;
+				INFOPLIST_FILE = VisionObjectTrackingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realestate.demo.lv.VisionObjectTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisionObjectTracking;
+			};
+			name = Debug;
+		};
+		5FE54B0F1F09CD4D004F5C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 7MVG5D3N9N;
+				INFOPLIST_FILE = VisionObjectTrackingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.realestate.demo.lv.VisionObjectTrackingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisionObjectTracking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FE54ADA1F09CD4C004F5C20 /* Build configuration list for PBXProject "VisionObjectTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE54B051F09CD4D004F5C20 /* Debug */,
+				5FE54B061F09CD4D004F5C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FE54B071F09CD4D004F5C20 /* Build configuration list for PBXNativeTarget "VisionObjectTracking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE54B081F09CD4D004F5C20 /* Debug */,
+				5FE54B091F09CD4D004F5C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FE54B0A1F09CD4D004F5C20 /* Build configuration list for PBXNativeTarget "VisionObjectTrackingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE54B0B1F09CD4D004F5C20 /* Debug */,
+				5FE54B0C1F09CD4D004F5C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5FE54B0D1F09CD4D004F5C20 /* Build configuration list for PBXNativeTarget "VisionObjectTrackingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FE54B0E1F09CD4D004F5C20 /* Debug */,
+				5FE54B0F1F09CD4D004F5C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FE54AD71F09CD4C004F5C20 /* Project object */;
+}
