@@ -1,12 +1,11 @@
-//: Playground - noun: a place where people can play
 
 import UIKit
 import Foundation
 
 
-/*
- Language Identification
- */
+/*:
+ ## Language Identification
+*/
 
 let detectTagger = NSLinguisticTagger(tagSchemes: [.language], options: 0)
 detectTagger.string = "内啥，借个设备"
@@ -15,9 +14,9 @@ let zhCNLang = detectTagger.dominantLanguage // => zh-Hans
 detectTagger.string = "Mr. Tim Cook presided over the earnings report of Apple. The stock was up 3% after hours."
 let enLang = detectTagger.dominantLanguage // => en
 
-/*
- Tokenization
- */
+/*:
+ ## Tokenization
+*/
 
 let tokenTagger = NSLinguisticTagger(tagSchemes: [.tokenType], options: 0)
 let mixedText = "NSLinguisticTagger provides text processing APIs.\n NSLinguisticTagger 是苹果的文字处理平台。"
@@ -34,10 +33,9 @@ tokenTagger.enumerateTags(in: tokenRange, unit: .word, scheme: .tokenType, optio
 print(tokens) // => ["NSLinguisticTagger", "provides", "text", "processing", "APIs", "NSLinguisticTagger", "是", "苹果", "的", "文字", "处理", "平台"]
 tokens
 
-
-/*
- Lemmatization
- */
+/*:
+ ## Lemmatization
+*/
 
 let lemTagger = NSLinguisticTagger(tagSchemes: [.lemma], options: 0)
 let lemText = "Great hikes make great pics! Wonderful afternoon in Marin County."
@@ -57,12 +55,12 @@ lemTagger.enumerateTags(in: lemRange, unit: .word, scheme: .lemma, options: lemO
 print(lems) // => ["great", "hike", "make", "great", "pic", "wonderful", "afternoon", "in", "Marin", "county"]
 lems
 
-
-/*
- Named Entity Recognition
+/*:
+ ## Named Entity Recognition
  */
+
 let namedTagger = NSLinguisticTagger(tagSchemes: [.nameType], options: 0)
-let namedText = "Tim Cook is the CEO of Apple Inc. which is located in Cupertino, Californi. Jians are iOS developer in Xian of Thoughtworks."
+let namedText = "Tim Cook is the CEO of Apple Inc. which is located in Cupertino, Californi. Lv Jian is a iOS developer in Xian of Thoughtworks."
 
 namedTagger.string = namedText
 

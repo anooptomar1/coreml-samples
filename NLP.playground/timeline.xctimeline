@@ -3,18 +3,13 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/twcn/macspace/NLP.playground#CharacterRangeLen=1894&amp;CharacterRangeLoc=87&amp;EndingColumnNumber=4&amp;EndingLineNumber=57&amp;StartingColumnNumber=0&amp;StartingLineNumber=6&amp;Timestamp=519102805.08913"
+         documentLocation = "file:///Users/twcn/macspace/coreml/NLP.playground#CharacterRangeLen=1906&amp;CharacterRangeLoc=31&amp;EndingColumnNumber=0&amp;EndingLineNumber=56&amp;StartingColumnNumber=17&amp;StartingLineNumber=2&amp;Timestamp=521438700.389909"
          lockedSize = "{257, 325}"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/twcn/macspace/NLP.playground#CharacterRangeLen=1895&amp;CharacterRangeLoc=87&amp;EndingColumnNumber=0&amp;EndingLineNumber=58&amp;StartingColumnNumber=0&amp;StartingLineNumber=6&amp;Timestamp=519102805.089336"
-         selectedRepresentationIndex = "0"
-         shouldTrackSuperviewWidth = "NO">
-      </LoggerValueHistoryTimelineItem>
-      <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/twcn/macspace/NLP.playground#CharacterRangeLen=5&amp;CharacterRangeLoc=2917&amp;EndingColumnNumber=0&amp;EndingLineNumber=82&amp;StartingColumnNumber=1&amp;StartingLineNumber=81&amp;Timestamp=519102805.089439"
+         documentLocation = "file:///Users/twcn/macspace/coreml/NLP.playground#CharacterRangeLen=1906&amp;CharacterRangeLoc=31&amp;EndingColumnNumber=0&amp;EndingLineNumber=56&amp;StartingColumnNumber=17&amp;StartingLineNumber=2&amp;Timestamp=521438700.390068"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
